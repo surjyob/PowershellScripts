@@ -2,13 +2,13 @@
 
 The code is a basic one to check some basic functionalities 
 
-##WIP
+## WIP
 
 As mentioned above this is kind of WIP code which will require fine tuning
 
-##Example
+## Example
 
-...pwsh
+'''pwsh
 function NewResourceGroup {
     [cmdletbinding()]
 
@@ -29,8 +29,8 @@ function NewResourceGroup {
 }
 
 NewResourceGroup -rgname cloudskillsbootcamp -location eastus
-...
+'''
 
-##Testing
+## Testing
 
 Unit tests have been performed on the module
