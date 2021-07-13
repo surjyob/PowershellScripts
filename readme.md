@@ -8,7 +8,8 @@ As mentioned above this is kind of WIP code which will require fine tuning
 
 ## Example
 
-'''pwsh
+'''Pwsh
+
 function NewResourceGroup {
     [cmdletbinding()]
 
@@ -29,6 +30,7 @@ function NewResourceGroup {
 }
 
 NewResourceGroup -rgname cloudskillsbootcamp -location eastus
+
 '''
 
 ## Testing
